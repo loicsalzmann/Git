@@ -15,7 +15,8 @@ $ git remote add <remote> <target-url>
 ```
 #### Check remotes
 ```
-$ git remote -v
+$ git remote #Lists all remote
+$ git remote -v #Lists all remote with path
 ```
 #### Check the status
 ```
@@ -33,9 +34,9 @@ $ git branch
 ```
 $ git checkout <branch>
 ```
-#### Merge a branch
+#### Merge a branch to current scope
 ```
-$ git merge <branch>
+$ git merge <remote>/<branch>
 ```
 #### Clone directory
 ```
@@ -55,7 +56,7 @@ $ git push -u <remote> <branch>
 ```
 #### Fetch the data into local dir
 ```
-$ git fetch <remote>
+$ git fetch <remote> <branch>
 ```
 #### Pull (Fetch and merge) into local dir
 ```
@@ -75,7 +76,7 @@ $ git pull <remote> <branch>
 	*Pull the changes into local dir*
 	
 	```
-	$ git pull <remote> <branch-to-get>
+	$ git pull <remote> <branch>
 	```
 	
 2. **Push the changes into the branch**
@@ -104,3 +105,7 @@ $ git pull <remote> <branch>
 	```
 	$ git push -u <remote> <branch>
 	```
+	
+----
+
+More [here](ttps://www.atlassian.com/git/tutorials/)
