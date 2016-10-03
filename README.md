@@ -47,7 +47,7 @@ $ git add .
 ```
 #### Commit changes
 ```
-$ git commit -m « Message »
+$ git commit -m "Message"
 ```
 #### Push the commit
 ```
