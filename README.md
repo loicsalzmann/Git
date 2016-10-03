@@ -15,8 +15,8 @@ $ git remote add <remote> <target-url>
 ```
 #### Check remotes
 ```
-$ git remote #Lists all remote
-$ git remote -v #Lists all remote with path
+$ git remote 		#Lists all remote
+$ git remote -v 	#Lists all remote with path
 ```
 #### Check the status
 ```
