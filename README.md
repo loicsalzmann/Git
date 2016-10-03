@@ -78,7 +78,7 @@ $ git pull [remote] [branch]
 	$ git pull [remote] [branch-to-get]
 	```
 	
-	2. **Push the changes into the branch**
+2. **Push the changes into the branch**
 	
 	```
 	$ git push
