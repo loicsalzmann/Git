@@ -64,37 +64,43 @@ $ git pull [remote] [branch]
 
 ## Use cases
 ### Get lastest changes from master into dev branch
-1. **Get the latest changes of master**  
-*Be sure to be on the right branch*  
-```
-$ git checkout [branch]
-```  
-*Pull the changes into local dir*  
-```
-$ git pull [remote] [branch-to-get]
-```
+1. **Get the latest changes of master**
 
-3. **Push the changes into the branch**  
-```
-$ git push
-```
+	*Be sure to be on the right branch*
+
+	```php
+	$ git checkout [branch]
+	```  
+	
+	*Pull the changes into local dir*
+	
+	```php
+	$ git pull [remote] [branch-to-get]
+	```
+	
+	2. **Push the changes into the branch**
+	
+	```php
+	$ git push
+	```
 
 ----
 
 ### Commit, push and merge latest changes from dev branch into master
 1. **Add files to track**  
-```
-$ git add .
-```
+
+	```php
+	$ git add .
+	```
 
 2. **Commit changes**  
-```
-$ git commit -m "Message"
-```
 
-3. **Push into the branch**  
-```
-$ git push -u [remote-name] [branch]
-```
+	```php
+	$ git commit -m "Message"
+	```
 
-----
+3. **Push into the branch**
+
+	```php
+	$ git push -u [remote-name] [branch]
+	```
