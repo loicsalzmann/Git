@@ -11,7 +11,7 @@ $ git init
 ```
 #### Add a remote
 ```
-$ git remote add [remote] [target-url]
+$ git remote add <remote> <target-url>
 ```
 #### Check remotes
 ```
@@ -23,7 +23,7 @@ $ git status
 ```
 #### Create a new branch
 ```
-$ git branch [branch]
+$ git branch <branch>
 ```
 #### Check the branches
 ```
@@ -31,15 +31,15 @@ $ git branch
 ```
 #### Switch to branch
 ```
-$ git checkout [branch]
+$ git checkout <branch>
 ```
 #### Merge a branch
 ```
-$ git merge [branch]
+$ git merge <branch>
 ```
 #### Clone directory
 ```
-$ git clone [url]
+$ git clone <url>
 ```
 #### Add files to track
 ```
@@ -51,15 +51,15 @@ $ git commit -m « Message »
 ```
 #### Push the commit
 ```
-$ git push -u [remote] [branch]
+$ git push -u <remote> <branch>
 ```
 #### Fetch the data into local dir
 ```
-$ git fetch [remote]
+$ git fetch <remote>
 ```
 #### Pull (Fetch and merge) into local dir
 ```
-$ git pull [remote] [branch]
+$ git pull <remote> <branch>
 ```
 
 ## Use cases
@@ -69,13 +69,13 @@ $ git pull [remote] [branch]
 	*Be sure to be on the right branch*
 
 	```
-	$ git checkout [branch]
+	$ git checkout <branch>
 	```  
 	
 	*Pull the changes into local dir*
 	
 	```
-	$ git pull [remote] [branch-to-get]
+	$ git pull <remote> <branch-to-get>
 	```
 	
 2. **Push the changes into the branch**
@@ -102,5 +102,5 @@ $ git pull [remote] [branch]
 3. **Push into the branch**
 
 	```
-	$ git push -u [remote] [branch]
+	$ git push -u <remote> <branch>
 	```
