@@ -108,4 +108,4 @@ $ git pull <remote> <branch>
 	
 ----
 
-More [here](ttps://www.atlassian.com/git/tutorials/)
+More [here](https://www.atlassian.com/git/tutorials/)
