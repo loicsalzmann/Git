@@ -106,6 +106,30 @@ $ git pull <remote> <branch>
 	$ git push -u <remote> <branch>
 	```
 	
+4. **Go in the master branch**
+
+	```
+	$ git checkout master
+	```
+	
+5. **Get the change**
+
+	```
+	$ git pull origin master
+	```
+	
+6. **Merge the files from the dev branch**
+
+	```
+	$ git merge <branch>
+	```
+	
+7. **Push the modification into master**
+
+	```
+	$ git push origin master
+	```
+	
 ----
 
 More [here](https://www.atlassian.com/git/tutorials/)
