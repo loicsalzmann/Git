@@ -87,7 +87,7 @@ $ git pull <remote> <branch>
 
 ----
 
-### Commit, push and merge latest changes from dev branch into master
+### Commit, push in dev branch and merge into master
 1. **Add files to track**  
 
 	```
@@ -100,10 +100,10 @@ $ git pull <remote> <branch>
 	$ git commit -m "Message"
 	```
 
-3. **Push into the branch**
+3. **Push into the dev branch**
 
 	```
-	$ git push -u <remote> <branch>
+	$ git push -u origin dev
 	```
 	
 4. **Go in the master branch**
@@ -112,22 +112,16 @@ $ git pull <remote> <branch>
 	$ git checkout master
 	```
 	
-5. **Get the change**
+5. **Get the change from dev**
 
 	```
-	$ git pull origin master
+	$ git pull origin dev
 	```
 	
-6. **Merge the files from the dev branch**
+6. **Push the modification into master**
 
 	```
-	$ git merge <branch>
-	```
-	
-7. **Push the modification into master**
-
-	```
-	$ git push origin master
+	$ git push -u origin master
 	```
 	
 ----
